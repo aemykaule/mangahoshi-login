@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6D3B1;
+}
+.formulario{
+    width: 30rem;
+    height: 40rem;
+    background-color: #070717;
+    border-radius: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.logo img{
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover {
+    background-color: #505071;
+}
+.linha01,
+.linha02{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+input{
+    width: auto;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+label{
+    color: #D6D3B1;
+}
+button{
+    width: 30%;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #D6D3B1;
+    color: #070717;
+}
